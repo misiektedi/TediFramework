@@ -1,0 +1,21 @@
+{
+    "name": "molkuski/tedi-framework",
+    "description": "Simple framework for PHP with routing and views",
+    "version": "1.0.0",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Molkuski\\TediFramework\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Michał Olkuski",
+            "email": "michal@olkuski.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/yaml": "^7.1"
+    }
+}
